@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "668768639718",
+    "project_id": "flutter-chawla-trial",
+    "storage_bucket": "flutter-chawla-trial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668768639718:android:2f5bffafc453165534b927",
+        "android_client_info": {
+          "package_name": "com.example.chawla_trial_udemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668768639718-ls3es6bfutb42sbjtd908pp773shphdr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chawla_trial_udemy",
+            "certificate_hash": "ee9ed583416afa6fb18b6f28f9a253b0cc1d7134"
+          }
+        },
+        {
+          "client_id": "668768639718-5omhte1k1k0gtahti8p61mgjj10g669c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_QSp-7cvKFcub0XqTEX32aAzltIHg2DI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668768639718-5omhte1k1k0gtahti8p61mgjj10g669c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
