@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:chawla_trial_udemy/minor_screens/product_detail_screen.dart';
+import 'package:collection/collection.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:collection/collection.dart';
+
 import '../main_screens/wish.dart';
-import '../providers/cart_provider.dart';
 import '../providers/wish_list_provider.dart';
 
 class ProductModel extends StatefulWidget {
@@ -117,7 +117,7 @@ class _ProductModelState extends State<ProductModel> {
                                 /// is sent to the stateManagement system e.g. Provider
 
                                 context
-                                            .read<WishList>()
+                                            .watch<WishList>()
                                             .getWishList
                                             .firstWhereOrNull((product) =>
                                                 product.documentId ==
