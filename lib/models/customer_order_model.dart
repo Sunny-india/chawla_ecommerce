@@ -46,7 +46,8 @@ class CustomerOrderModel extends StatelessWidget {
             Expanded(
               child: Container(
                 padding: const EdgeInsets.only(top: 6, bottom: 5),
-                width: double.infinity,
+                width: double.infinity, height: 100,
+
                 // margin: const EdgeInsets.only(left: 5),
                 decoration: BoxDecoration(
                   color: Colors.teal.shade100,
@@ -55,7 +56,6 @@ class CustomerOrderModel extends StatelessWidget {
                     bottomRight: Radius.circular(12),
                   ),
                 ),
-                height: 100,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
